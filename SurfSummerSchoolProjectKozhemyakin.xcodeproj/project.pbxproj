@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82A14CB828A863B100B68E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CB728A863B100B68E32 /* AppDelegate.swift */; };
+		82A14CC128A863B300B68E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A14CC028A863B300B68E32 /* Assets.xcassets */; };
+		82A14CC428A863B300B68E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A14CC228A863B300B68E32 /* LaunchScreen.storyboard */; };
+		82A14CD228A864E300B68E32 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CD028A864E300B68E32 /* MainViewController.swift */; };
+		82A14CD328A864E300B68E32 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A14CD128A864E300B68E32 /* MainViewController.xib */; };
+		82A14CD628A864F700B68E32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CD428A864F700B68E32 /* ProfileViewController.swift */; };
+		82A14CD728A864F700B68E32 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A14CD528A864F700B68E32 /* ProfileViewController.xib */; };
+		82A14CDA28A8651000B68E32 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CD828A8651000B68E32 /* FavoriteViewController.swift */; };
+		82A14CDB28A8651000B68E32 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A14CD928A8651000B68E32 /* FavoriteViewController.xib */; };
+		82A14CDE28A866BE00B68E32 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CDD28A866BE00B68E32 /* TabBarModel.swift */; };
+		82A14CE028A86A9600B68E32 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A14CDF28A86A9600B68E32 /* TabBarConfigurator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82A14CB428A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfSummerSchoolProjectKozhemyakin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A14CB728A863B100B68E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82A14CC028A863B300B68E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82A14CC328A863B300B68E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82A14CC528A863B300B68E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A14CD028A864E300B68E32 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		82A14CD128A864E300B68E32 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		82A14CD428A864F700B68E32 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		82A14CD528A864F700B68E32 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		82A14CD828A8651000B68E32 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		82A14CD928A8651000B68E32 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		82A14CDD28A866BE00B68E32 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		82A14CDF28A86A9600B68E32 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A14CB128A863B100B68E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82A14CAB28A863B100B68E32 = {
+			isa = PBXGroup;
+			children = (
+				82A14CB628A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin */,
+				82A14CB528A863B100B68E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82A14CB528A863B100B68E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CB428A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A14CB628A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CB728A863B100B68E32 /* AppDelegate.swift */,
+				82A14CC528A863B300B68E32 /* Info.plist */,
+				82A14CDC28A865EA00B68E32 /* Application */,
+				82A14CCB28A8647700B68E32 /* MainFlow */,
+			);
+			path = SurfSummerSchoolProjectKozhemyakin;
+			sourceTree = "<group>";
+		};
+		82A14CCB28A8647700B68E32 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CCF28A864BA00B68E32 /* MainModule */,
+				82A14CCE28A864AE00B68E32 /* TabBarModule */,
+				82A14CCD28A8649D00B68E32 /* ProfileModule */,
+				82A14CCC28A8648400B68E32 /* FavoriteModule */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		82A14CCC28A8648400B68E32 /* FavoriteModule */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CD828A8651000B68E32 /* FavoriteViewController.swift */,
+				82A14CD928A8651000B68E32 /* FavoriteViewController.xib */,
+			);
+			path = FavoriteModule;
+			sourceTree = "<group>";
+		};
+		82A14CCD28A8649D00B68E32 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CD428A864F700B68E32 /* ProfileViewController.swift */,
+				82A14CD528A864F700B68E32 /* ProfileViewController.xib */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		82A14CCE28A864AE00B68E32 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CDD28A866BE00B68E32 /* TabBarModel.swift */,
+				82A14CDF28A86A9600B68E32 /* TabBarConfigurator.swift */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		82A14CCF28A864BA00B68E32 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CD028A864E300B68E32 /* MainViewController.swift */,
+				82A14CD128A864E300B68E32 /* MainViewController.xib */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		82A14CDC28A865EA00B68E32 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				82A14CC028A863B300B68E32 /* Assets.xcassets */,
+				82A14CC228A863B300B68E32 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A14CB328A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A14CC828A863B300B68E32 /* Build configuration list for PBXNativeTarget "SurfSummerSchoolProjectKozhemyakin" */;
+			buildPhases = (
+				82A14CB028A863B100B68E32 /* Sources */,
+				82A14CB128A863B100B68E32 /* Frameworks */,
+				82A14CB228A863B100B68E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurfSummerSchoolProjectKozhemyakin;
+			productName = SurfSummerSchoolProjectKozhemyakin;
+			productReference = 82A14CB428A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A14CAC28A863B100B68E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					82A14CB328A863B100B68E32 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 82A14CAF28A863B100B68E32 /* Build configuration list for PBXProject "SurfSummerSchoolProjectKozhemyakin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82A14CAB28A863B100B68E32;
+			productRefGroup = 82A14CB528A863B100B68E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A14CB328A863B100B68E32 /* SurfSummerSchoolProjectKozhemyakin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A14CB228A863B100B68E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A14CC428A863B300B68E32 /* LaunchScreen.storyboard in Resources */,
+				82A14CD328A864E300B68E32 /* MainViewController.xib in Resources */,
+				82A14CD728A864F700B68E32 /* ProfileViewController.xib in Resources */,
+				82A14CDB28A8651000B68E32 /* FavoriteViewController.xib in Resources */,
+				82A14CC128A863B300B68E32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A14CB028A863B100B68E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A14CD228A864E300B68E32 /* MainViewController.swift in Sources */,
+				82A14CB828A863B100B68E32 /* AppDelegate.swift in Sources */,
+				82A14CD628A864F700B68E32 /* ProfileViewController.swift in Sources */,
+				82A14CDE28A866BE00B68E32 /* TabBarModel.swift in Sources */,
+				82A14CE028A86A9600B68E32 /* TabBarConfigurator.swift in Sources */,
+				82A14CDA28A8651000B68E32 /* FavoriteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82A14CC228A863B300B68E32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A14CC328A863B300B68E32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A14CC628A863B300B68E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82A14CC728A863B300B68E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82A14CC928A863B300B68E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurfSummerSchoolProjectKozhemyakin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.SurfSummerSchoolProjectKozhemyakin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82A14CCA28A863B300B68E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurfSummerSchoolProjectKozhemyakin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.SurfSummerSchoolProjectKozhemyakin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A14CAF28A863B100B68E32 /* Build configuration list for PBXProject "SurfSummerSchoolProjectKozhemyakin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A14CC628A863B300B68E32 /* Debug */,
+				82A14CC728A863B300B68E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A14CC828A863B300B68E32 /* Build configuration list for PBXNativeTarget "SurfSummerSchoolProjectKozhemyakin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A14CC928A863B300B68E32 /* Debug */,
+				82A14CCA28A863B300B68E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A14CAC28A863B100B68E32 /* Project object */;
+}
